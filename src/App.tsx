@@ -1,4 +1,6 @@
 import "./App.css";
+import React from "react";
+
 const pizzaData = [
   {
     name: "Focaccia",
@@ -91,7 +93,6 @@ function Footer(){
 }
 
 function Pizza(Props:any) {
-  console.log(Props.pizzaObj);
   return (
       <li className="pizza">
               <div key={Props.pizzaObj.name}>
